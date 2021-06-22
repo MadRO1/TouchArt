@@ -1,0 +1,129 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .nav-item{
+        margin: 1rem;
+        border-right: 0;
+    }
+    .n2 .nav-item{
+        border-right: 0;
+    }
+    /*for 1 slider*/
+    .para {
+        font-size: 0.75rem;
+        width: 50%;
+        text-align: center;
+        margin: 0;
+        position: absolute;
+        margin-left: 50%;
+        transform: translateY(-250%);
+    }
+    /*for 2 slider*/
+    .para2{
+        font-size: 1em;
+        width: 35%;
+        text-align: center;
+        margin: 0;
+        position: absolute;
+        margin-left: 10%;
+        transform: translateY(0%);
+
+    }
+    /*for featuers*/
+    
+     /*about-us*/
+     .wid{
+        margin-top: 1em;
+        border-radius: 20%;
+     }
+     /*contactus*/
+     .editpos{
+        width: 80%;
+        display:block;
+        margin-left: 10%;
+        margin-bottom: 5%;
+        color: black;
+    }
+   
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width:990px) {
+    .nav-item{
+    margin: 1rem;
+    border-right: 0;
+    }
+    .n2 .nav-item{
+    border-right: 0;
+    }
+    /*for 1 slider*/
+    .para {
+        font-size: 1.2rem;
+        width: 50%;
+        text-align: center;
+        margin: 0;
+        position: absolute;
+        margin-left: 50%;
+        transform: translateY(-350%);
+    }
+    /*for 2 slider*/
+    .para2{
+        font-size: 1.2em;
+        width: 35%;
+        text-align: center;
+        margin: 0;
+        position: absolute;
+        margin-left: 10%;
+        transform: translateY(150%);
+
+    }
+    /*for featuers*/
+   
+     /*about-us*/
+     .wid{
+        margin-top: 1em;
+        border-radius: 20%;
+     }
+     /*contactus*/
+     .editpos{
+        width: 80%;
+        display:block;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 991px) and (max-width:1200px) {
+     /*for 1 slider*/
+     .para {
+        font-size: 1.5rem;
+        width: 50%;
+        text-align: center;
+        margin: 0;
+        position: absolute;
+        margin-left: 50%;
+        transform: translateY(-450%);
+    }
+    /*for 2 slider*/
+    .para2{
+        font-size: 1.5em;
+        width: 35%;
+        text-align: center;
+        margin: 0;
+        position: absolute;
+        margin-left: 10%;
+        transform: translateY(150%);
+
+    }
+    /*for featuers*/
+  
+     /*about-us*/
+     /*contactus*/
+     .editpos{
+        width: 80%;
+        display:block;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+}
