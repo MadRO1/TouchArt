@@ -13,15 +13,11 @@ body{
 /*\\start scrolling nave bar\\*/
 
 #scrollingnav{
-   overflow: hidden;
-  background-color: #333;
-}
-.sticky{
-    position: fixed;
-    top: 0;
+    position: absolute;
+    overflow: hidden;
+    background-color: #333;
     width: 100%;
 }
-
 .navscr{
     margin-right:1em !important ;
     border-right: 1px black solid !important;
