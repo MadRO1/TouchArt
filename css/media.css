@@ -1,6 +1,9 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+     #scrollingnav {
+        width: 92%;
+    }
     .nav-item{
         margin: 1rem;
         border-right: 0;
